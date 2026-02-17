@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="6" hostname="Ashton" name="edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest" skipped="0" tests="6" time="0.215" timestamp="2026-02-17T03:01:30">
+  <properties>
+    <property name="javac.test.classpath" value=":C:\Users\Ashton Avant\Downloads\hamcrest-core-1.3.jar:C:\Users\Ashton Avant\Downloads\json-simple-3.1.0.jar:C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.6.0.zip:C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.5.0 (2).zip:build/classes:${libs.junit.classpath}:C:\Program Files\Apache NetBeans\platform\modules\ext\junit-4.13.2.jar" />
+    <property name="java.specification.version" value="25" />
+    <property name="platforms.java_FX_SE_JDK_25_GOODONE.compiler" value="modern" />
+    <property name="libs.spring-framework500.classpath" value="C:\Program Files\Apache NetBeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\Apache NetBeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-aop-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-aspects-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-beans-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-context-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-context-indexer-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-context-support-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-core-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-expression-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-instrument-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-jcl-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-jdbc-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-jms-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-messaging-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-orm-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-oxm-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-test-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-tx-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-web-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-webflux-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-webmvc-5.3.31.jar;C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-websocket-5.3.31.jar" />
+    <property name="jar.index.metainf" value="false" />
+    <property name="test.binaryincludes" value="&lt;nothing&gt;" />
+    <property name="debug-transport" value="dt_shmem" />
+    <property name="do.jlink" value="false" />
+    <property name="libs.javaee-web-api-8.0.src" value="" />
+    <property name="java.vendor.url" value="https://adoptium.net/" />
+    <property name="libs.Junit_4.X..src" value="" />
+    <property name="debug.modulepath" value="" />
+    <property name="libs.jsp-compilation.src" value="" />
+    <property name="libs.Junit_4.X..javadoc" value="" />
+    <property name="libs.eclipselink.javadoc" value="C:\Program Files\Apache NetBeans\java\modules\ext\docs\jakarta.persistence-2.2.3-doc.zip" />
+    <property name="libs.JWSAntTasks.javadoc" value="" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Ashton Avant\OneDrive\Desktop\cs individual project #2\build\test\results\TEST-edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.xml crashfile=C:\Users\Ashton Avant\OneDrive\Desktop\cs individual project #2\build\junitvmwatcher10737894111012586958.properties propsfile=C:\Users\Ashton Avant\OneDrive\Desktop\cs individual project #2\build\junit7247315631135223792.properties" />
+    <property name="jdk.debug" value="release" />
+    <property name="javadoc.use" value="true" />
+    <property name="javadoc.notree" value="false" />
+    <property name="basedir" value="C:\Users\Ashton Avant\OneDrive\Desktop\cs individual project #2" />
+    <property name="application.vendor" value="Ashton Avant" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="libs.jsf20.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
+    <property name="netbeans.extbrowser.manual_chrome_plugin_install" value="yes" />
+    <property name="libs.JavaFX24.src" value="" />
+    <property name="libs.jakartaee-api-10.0.maven-pom" value="" />
+    <property name="libs.spring-framework500.javadoc" value="" />
+    <property name="netbeans.default_userdir_root" value="C:\Users\Ashton Avant\AppData\Roaming\NetBeans" />
+    <property name="libs.jsp-compilation-syscp.src" value="" />
+    <property name="jdk.home" value="C:\Program Files\Apache NetBeans\jdk" />
+    <property name="java.runtime.version" value="25.0.1+8-LTS" />
+    <property name="libs.eclipselink.maven-pom" value="" />
+    <property name="libs.metro.maven-pom" value="" />
+    <property name="libs.JAXB-ENDORSED.javadoc" value="" />
+    <property name="sun.java2d.noddraw" value="true" />
+    <property name="guice.disable.misplaced.annotation.check" value="true" />
+    <property name="libs.primefaces.javadoc" value="" />
+    <property name="libs.jsp-compilation.javadoc" value="" />
+    <property name="libs.groovy-all.maven-pom" value="" />
+    <property name="java.vendor.version" value="Temurin-25.0.1+8" />
+    <property name="libs.restapi.src" value="" />
+    <property name="libs.junit_5.javadoc" value="C:\Program Files\Apache NetBeans\platform\docs\junit-jupiter-api-5.10.3-javadoc.jar;C:\Program Files\Apache NetBeans\platform\docs\junit-jupiter-params-5.10.3-javadoc.jar;C:\Program Files\Apache NetBeans\platform\docs\junit-jupiter-engine-5.10.3-javadoc.jar;C:\Program Files\Apache NetBeans\platform\docs\opentest4j-1.3.0-javadoc.jar" />
+    <property name="libs.jakartaee-api-11.0.maven-pom" value="" />
+    <property name="dist.archive.excludes" value="" />
+    <property name="java.io.tmpdir" value="C:\Users\ASHTON~1\AppData\Local\Temp\" />
+    <property name="java.version" value="25.0.1" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="libs.jakartaee-api-8.0.javadoc" value="C:\Program Files\Apache NetBeans\enterprise\docs\jakartaee8-doc-api.jar" />
+    <property name="native.encoding" value="Cp1252" />
+    <property name="java.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\msys64\ucrt64\bin;C:\Users\Ashton Avant\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ashton Avant\AppData\Local\Microsoft\WindowsApps;C:\Users\Ashton Avant\AppData\Local\Microsoft\GitHubDesktop\bin;." />
+    <property name="libs.hamcrest.src" value="" />
+    <property name="java.vendor" value="Eclipse Adoptium" />
+    <property name="libs.groovy-all.src" value="" />
+    <property name="libs.testng.javadoc" value="C:\Program Files\Apache NetBeans\platform\docs\testng-6.13.1-javadoc.jar" />
+    <property name="meta.inf.dir" value="cs310-course-database-sp26/src/META-INF" />
+    <property name="run.upgrademodulepath" value="" />
+    <property name="libs.Hamcrest_1.X.classpath" value="" />
+    <property name="compile.on.save" value="true" />
+    <property name="jlink.additionalparam" value="" />
+    <property name="libs.testng.maven-pom" value="" />
+    <property name="org.openide.version" value="deprecated" />
+    <property name="run.classpath" value=":C:\Users\Ashton Avant\Downloads\hamcrest-core-1.3.jar:C:\Users\Ashton Avant\Downloads\json-simple-3.1.0.jar:C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.6.0.zip:C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.5.0 (2).zip:build/classes:C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.6.0.zip" />
+    <property name="libs.jaxb.src" value="" />
+    <property name="sun.awt.enableExtraMouseButtons" value="true" />
+    <property name="test.src.dir" value="cs310-course-database-sp26/test" />
+    <property name="org.openide.major.version" value="IDE/1" />
+    <property name="ap.proc.none.internal" value="" />
+    <property name="org.openide.specification.version" value="6.2" />
+    <property name="user.timezone" value="America/Chicago" />
+    <property name="jar.index" value="false" />
+    <property name="libs.jpa20-persistence.classpath" value="C:\Program Files\Apache NetBeans\java\modules\ext\eclipselink\jakarta.persistence-2.2.3.jar" />
+    <property name="libs.junit_5.classpath" value="C:\Program Files\Apache NetBeans\platform\modules\ext\junit-jupiter-api-5.10.3.jar;C:\Program Files\Apache NetBeans\platform\modules\ext\junit-jupiter-params-5.10.3.jar;C:\Program Files\Apache NetBeans\platform\modules\ext\junit-jupiter-engine-5.10.3.jar;C:\Program Files\Apache NetBeans\platform\modules\ext\opentest4j-1.3.0.jar" />
+    <property name="java.vm.specification.version" value="25" />
+    <property name="libs.eclipselinkmodelgen.javadoc" value="" />
+    <property name="javadoc.noindex" value="false" />
+    <property name="javadoc.private" value="false" />
+    <property name="libs.JAXB-ENDORSED.maven-pom" value="" />
+    <property name="user.home" value="C:\Users\Ashton Avant" />
+    <property name="libs.eclipselinkmodelgen.maven-pom" value="" />
+    <property name="have.sources" value="true" />
+    <property name="libs.javaFX_25.src" value="" />
+    <property name="annotation.processing.processors.list" value="" />
+    <property name="javac.deprecation" value="false" />
+    <property name="jlink.launcher" value="true" />
+    <property name="build.generated.sources.dir" value="build/generated-sources" />
+    <property name="libs.Json-simple-4.x.x.jar.src" value="" />
+    <property name="plugin.manager.check.updates" value="false" />
+    <property name="netbeans.autoupdate.language" value="en" />
+    <property name="polyglot.engine.WarnInterpreterOnly" value="false" />
+    <property name="libs.eclipselinkmodelgen.src" value="" />
+    <property name="build.compiler.emacs" value="true" />
+    <property name="ant.file.type.JavaProject11" value="file" />
+    <property name="build.classes.excludes" value="**/*.java,**/*.form" />
+    <property name="dist.jar" value="dist/JavaProject11.jar" />
+    <property name="libs.jakartaee-web-api-9.0.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\jakarta.jakartaee-web-api-9.0.0.jar" />
+    <property name="libs.jakartaee-web-api-11.0.maven-pom" value="" />
+    <property name="modules.supported.internal" value="true" />
+    <property name="libs.javaee-endorsed-api-7.0.javadoc" value="C:\Program Files\Apache NetBeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="jna.nosys" value="false" />
+    <property name="os.version" value="10.0" />
+    <property name="netbeans.home" value="C:\Program Files\Apache NetBeans\platform" />
+    <property name="libs.CopyLibs.javadoc" value="" />
+    <property name="debug-transport-by-os" value="dt_shmem" />
+    <property name="libs.jsf20.src" value="" />
+    <property name="libs.javaee-api-8.0.javadoc" value="C:\Program Files\Apache NetBeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="unnamed.module.internal" value="true" />
+    <property name="libs.jakartaee-api-10.0.javadoc" value="C:\Program Files\Apache NetBeans\enterprise\docs\jakartaee10-doc-api.jar" />
+    <property name="libs.jstl.javadoc" value="C:\Program Files\Apache NetBeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.javaee-endorsed-api-7.0.maven-pom" value="" />
+    <property name="libs.jaxws21.classpath" value="C:\Program Files\Apache NetBeans\java\modules\ext\jaxws22\api\jakarta.jws-api.jar;C:\Program Files\Apache NetBeans\java\modules\ext\jaxws22\api\jakarta.xml.soap-api.jar;C:\Program Files\Apache NetBeans\java\modules\ext\jaxws22\api\jakarta.xml.ws-api.jar;C:\Program Files\Apache NetBeans\java\modules\ext\jaxws22\FastInfoset.jar;C:\Program Files\Apache NetBeans\java\modules\ext\jaxws22\gmbal-api-only.jar;C:\Program Files\Apache NetBeans\java\modules\ext\jaxws22\ha-api.jar;C:\Program Files\Apache NetBeans\java\modules\ext\jaxws22\jakarta.mail.jar;C:\Program Files\Apache NetBeans\java\modules\ext\jaxws22\jaxws-rt.jar;C:\Program Files\Apache NetBeans\java\modules\ext\jaxws22\jaxws-tools.jar;C:\Program Files\Apache NetBeans\java\modules\ext\jaxws22\management-api.jar;C:\Program Files\Apache NetBeans\java\modules\ext\jaxws22\mimepull.jar;C:\Program Files\Apache NetBeans\java\modules\ext\jaxws22\policy.jar;C:\Program Files\Apache NetBeans\java\modules\ext\jaxws22\saaj-impl.jar;C:\Program Files\Apache NetBeans\java\modules\ext\jaxws22\stax-ex.jar;C:\Program Files\Apache NetBeans\java\modules\ext\jaxws22\stax2-api.jar;C:\Program Files\Apache NetBeans\java\modules\ext\jaxws22\streambuffer.jar;C:\Program Files\Apache NetBeans\java\modules\ext\jaxws22\woodstox-core.jar;C:\Program Files\Apache NetBeans\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files\Apache NetBeans\ide\modules\ext\jaxb\activation.jar;C:\Program Files\Apache NetBeans\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\Apache NetBeans\ide\modules\ext\jaxb\jaxb-xjc.jar" />
+    <property name="libs.restapi.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\jaxrs-2.1\jakarta.ws.rs-api-2.1.6.jar" />
+    <property name="os.arch" value="amd64" />
+    <property name="build.generated.dir" value="build/generated" />
+    <property name="libs.jakartaee-web-api-11.0.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\jakarta.jakartaee-web-api-11.0.0.jar" />
+    <property name="libs.groovy-all.javadoc" value="" />
+    <property name="libs.jakartaee-api-8.0.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\jakarta.jakartaee-api-8.0.0.jar" />
+    <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\Apache NetBeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.javaee-endorsed-api-6.0.src" value="" />
+    <property name="libs.javaee-endorsed-api-7.0.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\javaee7-endorsed\javax.annotation-api.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\javaee7-endorsed\javax.xml.soap-api.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\javaee7-endorsed\jaxb-api-osgi.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\javaee7-endorsed\jaxws-api.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\javaee7-endorsed\jsr181-api.jar" />
+    <property name="libs.primefaces.maven-pom" value="" />
+    <property name="org.netbeans.io.suspend" value="0" />
+    <property name="ant.project.name" value="JavaProject11" />
+    <property name="dist.javadoc.dir" value="dist/javadoc" />
+    <property name="default.javac.target" value="25" />
+    <property name="javac.fork" value="true" />
+    <property name="libs.eclipselink.classpath" value="C:\Program Files\Apache NetBeans\java\modules\ext\eclipselink\org.eclipse.persistence.core-2.7.12.jar;C:\Program Files\Apache NetBeans\java\modules\ext\eclipselink\org.eclipse.persistence.asm-9.4.0.jar;C:\Program Files\Apache NetBeans\java\modules\ext\eclipselink\org.eclipse.persistence.antlr-2.7.12.jar;C:\Program Files\Apache NetBeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa-2.7.12.jar;C:\Program Files\Apache NetBeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql-2.7.12.jar;C:\Program Files\Apache NetBeans\java\modules\ext\eclipselink\org.eclipse.persistence.moxy-2.7.12.jar;C:\Program Files\Apache NetBeans\java\modules\ext\eclipselink\jakarta.persistence-2.2.3.jar" />
+    <property name="ant.file.type.JavaProject11-impl" value="file" />
+    <property name="libs.JUnit_4.X.src" value="" />
+    <property name="libs.javaFX_25.maven-pom" value="" />
+    <property name="libs.PostgreSQLDriver.maven-pom" value="" />
+    <property name="libs.absolutelayout.src" value="" />
+    <property name="libs.jakartaee-api-11.0.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\jakarta.jakartaee-api-11.0.0.jar" />
+    <property name="testng.mode" value="testng" />
+    <property name="annotation.processing.enabled.in.editor" value="false" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="netbeans.productversion" value="Apache NetBeans IDE 28" />
+    <property name="mkdist.disabled" value="false" />
+    <property name="libs.javaee-web-api-6.0.javadoc" value="C:\Program Files\Apache NetBeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.groovy-all.classpath" value="C:\Program Files\Apache NetBeans\groovy\modules\ext\groovy-3.0.23.jar;C:\Program Files\Apache NetBeans\groovy\modules\ext\groovy-ant-3.0.23.jar" />
+    <property name="libs.javaee-api-7.0.maven-pom" value="" />
+    <property name="libs.absolutelayout.javadoc" value="" />
+    <property name="module.build.classes.dir" value="build/classes" />
+    <property name="annotation.processing.processor.options" value="" />
+    <property name="libs.jaxb.maven-pom" value="" />
+    <property name="libs.javaee-api-6.0.maven-pom" value="" />
+    <property name="dist.dir" value="dist" />
+    <property name="build.dir" value="build" />
+    <property name="java.lang.Runtime.level" value="FINE" />
+    <property name="libs.graaljs.maven-pom" value="" />
+    <property name="netbeans.autoupdate.variant" value="" />
+    <property name="javadoc.version" value="false" />
+    <property name="libs.metro.classpath" value="C:\Program Files\Apache NetBeans\ide\modules\ext\jaxb\activation.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\metro\webservices-api.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\metro\webservices-extra-api.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\metro\webservices-extra.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\metro\webservices-rt.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\metro\webservices-tools.jar" />
+    <property name="libs.metro.src" value="" />
+    <property name="libs.CopyLibs.classpath" value="C:\Program Files\Apache NetBeans\java\ant\extra\org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="libs.Junit_4.X..classpath" value="" />
+    <property name="libs.jakartaee-api-11.0.javadoc" value="C:\Program Files\Apache NetBeans\enterprise\docs\jakartaee11-doc-api.jar" />
+    <property name="javadoc.html5" value="false" />
+    <property name="javac.test.processorpath" value=":C:\Users\Ashton Avant\Downloads\hamcrest-core-1.3.jar:C:\Users\Ashton Avant\Downloads\json-simple-3.1.0.jar:C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.6.0.zip:C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.5.0 (2).zip:build/classes:${libs.junit.classpath}:C:\Program Files\Apache NetBeans\platform\modules\ext\junit-4.13.2.jar" />
+    <property name="libs.javaee-web-api-7.0.maven-pom" value="" />
+    <property name="libs.javaee-web-api-8.0.maven-pom" value="" />
+    <property name="netbeans.dirs" value="C:\Program Files\Apache NetBeans\nb;C:\Program Files\Apache NetBeans\ergonomics;C:\Program Files\Apache NetBeans\ide;C:\Program Files\Apache NetBeans\extide;C:\Program Files\Apache NetBeans\java;C:\Program Files\Apache NetBeans\apisupport;C:\Program Files\Apache NetBeans\webcommon;C:\Program Files\Apache NetBeans\websvccommon;C:\Program Files\Apache NetBeans\enterprise;C:\Program Files\Apache NetBeans\mobility;C:\Program Files\Apache NetBeans\profiler;C:\Program Files\Apache NetBeans\python;C:\Program Files\Apache NetBeans\php;C:\Program Files\Apache NetBeans\identity;C:\Program Files\Apache NetBeans\harness;C:\Program Files\Apache NetBeans\cnd;C:\Program Files\Apache NetBeans\cndext;C:\Program Files\Apache NetBeans\cpplite;C:\Program Files\Apache NetBeans\dlight;C:\Program Files\Apache NetBeans\groovy;C:\Program Files\Apache NetBeans\extra;C:\Program Files\Apache NetBeans\javacard;C:\Program Files\Apache NetBeans\javafx;C:\Program Files\Apache NetBeans\rust" />
+    <property name="libs.hamcrest.maven-pom" value="" />
+    <property name="javac.processorpath" value=":C:\Users\Ashton Avant\Downloads\hamcrest-core-1.3.jar:C:\Users\Ashton Avant\Downloads\json-simple-3.1.0.jar:C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.6.0.zip:C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.5.0 (2).zip" />
+    <property name="libs.javaee-api-6.0.javadoc" value="C:\Program Files\Apache NetBeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.JWSAntTasks.maven-pom" value="" />
+    <property name="libs.javaFX_25.javadoc" value="" />
+    <property name="run.modulepath" value="" />
+    <property name="javac.upgrademodulepath" value="" />
+    <property name="file.reference.cs310-course-database-sp26-src" value="cs310-course-database-sp26/src" />
+    <property name="do.archive+manifest.available" value="true" />
+    <property name="apple.laf.useScreenMenuBar" value="true" />
+    <property name="user.country" value="US" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="libs.jakartaee-api-9.0.maven-pom" value="" />
+    <property name="libs.jpa20-persistence.src" value="" />
+    <property name="libs.restapi.javadoc" value="" />
+    <property name="endorsed.classpath" value="" />
+    <property name="javac.test.sourcepath" value="C:\Users\Ashton Avant\OneDrive\Desktop\cs individual project #2\build\empty" />
+    <property name="includes" value="**" />
+    <property name="file.reference.mysql-connector-j-9.6.0.zip" value="C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.6.0.zip" />
+    <property name="file.reference.hamcrest-core-1.3.jar" value="C:\Users\Ashton Avant\Downloads\hamcrest-core-1.3.jar" />
+    <property name="libs.hamcrest.classpath" value="C:\Program Files\Apache NetBeans\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="javadoc.splitindex" value="true" />
+    <property name="libs.JWSAntTasks.classpath" value="C:\Program Files\Apache NetBeans\java\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
+    <property name="junit.available" value="true" />
+    <property name="javac.processormodulepath" value="" />
+    <property name="javadoc.encoding" value="UTF-8" />
+    <property name="libs.jakartaee-api-11.0.src" value="" />
+    <property name="netbeans.hash.code" value="unique=0489486e3-6097-4dc3-9f74-ea8cedbd826e_a0c006b8-3800-4c02-9e72-f9a539eca68f" />
+    <property name="libs.jstl.src" value="" />
+    <property name="libs.jsp-compilation-syscp.maven-pom" value="" />
+    <property name="jlink.strip" value="false" />
+    <property name="libs.javaFX_25.classpath" value="C:\Users\Ashton Avant\OneDrive\Desktop\javafx-sdk-25.0.1\lib\javafx-swt.jar;C:\Users\Ashton Avant\OneDrive\Desktop\javafx-sdk-25.0.1\lib\javafx.base.jar;C:\Users\Ashton Avant\OneDrive\Desktop\javafx-sdk-25.0.1\lib\javafx.controls.jar;C:\Users\Ashton Avant\OneDrive\Desktop\javafx-sdk-25.0.1\lib\javafx.fxml.jar;C:\Users\Ashton Avant\OneDrive\Desktop\javafx-sdk-25.0.1\lib\javafx.graphics.jar;C:\Users\Ashton Avant\OneDrive\Desktop\javafx-sdk-25.0.1\lib\javafx.media.jar;C:\Users\Ashton Avant\OneDrive\Desktop\javafx-sdk-25.0.1\lib\javafx.swing.jar;C:\Users\Ashton Avant\OneDrive\Desktop\javafx-sdk-25.0.1\lib\javafx.web.jar;C:\Users\Ashton Avant\OneDrive\Desktop\javafx-sdk-25.0.1\lib\jdk.jsobject.jar;C:\Users\Ashton Avant\OneDrive\Desktop\javafx-sdk-25.0.1\lib\jfx.incubator.input.jar;C:\Users\Ashton Avant\OneDrive\Desktop\javafx-sdk-25.0.1\lib\jfx.incubator.richtext.jar" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="libs.jaxb.javadoc" value="C:\Program Files\Apache NetBeans\ide\docs\jaxb-api-doc.jar" />
+    <property name="manifest.available" value="true" />
+    <property name="libs.spring-framework500.maven-pom" value="" />
+    <property name="libs.JavaFX24.javadoc" value="" />
+    <property name="run.jvmargs.ide" value="" />
+    <property name="ant.core.lib" value="C:\Program Files\Apache NetBeans\extide\ant\lib\ant.jar" />
+    <property name="libs.jsp-compilation.maven-pom" value="" />
+    <property name="platforms.java_FX_SE_JDK_25_GOODONE.bootclasspath" value="C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.base/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.compiler/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.datatransfer/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.desktop/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.instrument/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.logging/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.management/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.management.rmi/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.naming/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.net.http/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.prefs/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.rmi/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.scripting/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.se/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.security.jgss/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.security.sasl/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.smartcardio/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.sql/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.sql.rowset/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.transaction.xa/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.xml/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/java.xml.crypto/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.accessibility/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.attach/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.charsets/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.compiler/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.crypto.cryptoki/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.crypto.ec/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.crypto.mscapi/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.dynalink/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.editpad/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.graal.compiler/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.graal.compiler.management/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.hotspot.agent/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.httpserver/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.incubator.vector/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.internal.ed/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.internal.jvmstat/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.internal.le/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.internal.md/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.internal.opt/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.internal.vm.ci/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.jartool/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.javadoc/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.jcmd/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.jconsole/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.jdeps/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.jdi/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.jdwp.agent/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.jfr/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.jlink/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.jpackage/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.jshell/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.jsobject/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.jstatd/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.localedata/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.management/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.management.agent/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.management.jfr/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.naming.dns/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.naming.rmi/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.net/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.nio.mapmode/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.sctp/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.security.auth/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.security.jgss/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.unsupported/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.unsupported.desktop/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.xml.dom/;C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25\!/modules/jdk.zipfs/" />
+    <property name="javac.profile.cmd.line.arg" value="" />
+    <property name="libs.jakartaee-web-api-11.0.src" value="" />
+    <property name="libs.jakartaee-api-9.0.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\jakarta.jakartaee-api-9.0.0.jar" />
+    <property name="application.title" value="JavaProject11" />
+    <property name="libs.jakartaee-api-10.0.src" value="" />
+    <property name="javac.test.modulepath" value="" />
+    <property name="ignore.failing.tests" value="true" />
+    <property name="libs.PostgreSQLDriver.javadoc" value="" />
+    <property name="libs.jsp-compilation-syscp.classpath" value="C:\Program Files\Apache NetBeans\extide\ant\lib\ant.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\servlet4.0-jsp2.3-api.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\glassfish-jspparser-5.1.0.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
+    <property name="libs.jsp-compilation.classpath" value="C:\Program Files\Apache NetBeans\extide\ant\lib\ant.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\servlet4.0-jsp2.3-api.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\glassfish-jspparser-5.1.0.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jstl-api.jar;C:\Program Files\Apache NetBeans\extide\ant\lib\ant-launcher.jar" />
+    <property name="org.apache.commons.logging.Log" value="org.apache.commons.logging.impl.Jdk14Logger" />
+    <property name="libs.javaee-api-6.0.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\javaee-api-6.0.jar" />
+    <property name="platforms.java_FX_SE_JDK_25_GOODONE.home" value="C:\Users\Ashton Avant\OneDrive\Desktop\openjdk-25+36_windows-x64_bin\jdk-25" />
+    <property name="libs.javaee-api-7.0.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\javaee-api-7.0.jar" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="libs.restapi.maven-pom" value="" />
+    <property name="do.depend" value="false" />
+    <property name="javadoc.preview" value="true" />
+    <property name="libs.jakartaee-web-api-10.0.src" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="libs.jakartaee-web-api-9.0.maven-pom" value="" />
+    <property name="libs.javaee-endorsed-api-7.0.src" value="" />
+    <property name="annotation.processing.enabled" value="true" />
+    <property name="libs.junit_5.src" value="C:\Program Files\Apache NetBeans\platform\docs\junit-jupiter-api-5.10.3-sources.jar;C:\Program Files\Apache NetBeans\platform\docs\junit-jupiter-params-5.10.3-sources.jar;C:\Program Files\Apache NetBeans\platform\docs\junit-jupiter-engine-5.10.3-sources.jar;C:\Program Files\Apache NetBeans\platform\docs\opentest4j-1.3.0-sources.jar" />
+    <property name="libs.jaxb.classpath" value="C:\Program Files\Apache NetBeans\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\Apache NetBeans\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\Apache NetBeans\ide\modules\ext\jaxb\activation.jar;C:\Program Files\Apache NetBeans\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="libs.javaee-api-8.0.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\javaee-api-8.0.jar" />
+    <property name="libs.CopyLibs.src" value="" />
+    <property name="javac.source" value="25" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2025-10-21" />
+    <property name="java.home" value="C:\Program Files\Apache NetBeans\jdk" />
+    <property name="work.dir" value="C:\Users\Ashton Avant\OneDrive\Desktop\cs individual project #2" />
+    <property name="jna.boot.library.name" value="jnidispatch-nb" />
+    <property name="javac.test.compilerargs" value="" />
+    <property name="libs.PostgreSQLDriver.classpath" value="C:\Program Files\Apache NetBeans\ide\modules\ext\postgresql-42.5.4.jar" />
+    <property name="libs.graaljs.javadoc" value="" />
+    <property name="libs.JAXB-ENDORSED.src" value="" />
+    <property name="libs.Junit_4.X..maven-pom" value="" />
+    <property name="manifest.encoding" value="UTF-8" />
+    <property name="user.script" value="" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="run.test.modulepath" value="" />
+    <property name="libs.graaljs.classpath" value="C:\Program Files\Apache NetBeans\webcommon\modules\ext\js-launcher-24.0.0.jar;C:\Program Files\Apache NetBeans\webcommon\modules\ext\js-language-24.0.0.jar;C:\Program Files\Apache NetBeans\webcommon\modules\ext\js-scriptengine-24.0.0.jar;C:\Program Files\Apache NetBeans\webcommon\modules\ext\regex-24.0.0.jar;C:\Program Files\Apache NetBeans\webcommon\modules\ext\icu4j-24.0.0.jar;C:\Program Files\Apache NetBeans\ide\modules\ext\collections-24.0.0.jar;C:\Program Files\Apache NetBeans\ide\modules\ext\jline-24.0.0.jar;C:\Program Files\Apache NetBeans\ide\modules\ext\jniutils-24.0.0.jar;C:\Program Files\Apache NetBeans\ide\modules\ext\launcher-common-24.0.0.jar;C:\Program Files\Apache NetBeans\ide\modules\ext\nativeimage-24.0.0.jar;C:\Program Files\Apache NetBeans\ide\modules\ext\polyglot-24.0.0.jar;C:\Program Files\Apache NetBeans\ide\modules\ext\word-24.0.0.jar;C:\Program Files\Apache NetBeans\ide\modules\ext\truffle-api-24.0.0.jar;C:\Program Files\Apache NetBeans\ide\modules\ext\truffle-compiler-24.0.0.jar;C:\Program Files\Apache NetBeans\ide\modules\ext\truffle-runtime-24.0.0.jar" />
+    <property name="libs.javaee-web-api-6.0.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\javaee-web-api-6.0.jar" />
+    <property name="libs.jsp-compiler.javadoc" value="" />
+    <property name="debug.test.modulepath" value="" />
+    <property name="libs.javaee-web-api-7.0.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\javaee-web-api-7.0.jar" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="libs.restlib.javadoc" value="" />
+    <property name="libs.absolutelayout.classpath" value="C:\Program Files\Apache NetBeans\java\modules\ext\AbsoluteLayout.jar;C:\Users\Ashton Avant\OneDrive\Desktop\DataExchange_SP26.zip" />
+    <property name="do.archive" value="true" />
+    <property name="built-jar.properties" value="C:\Users\Ashton Avant\OneDrive\Desktop\cs individual project #2\build\built-jar.properties" />
+    <property name="nb.native.filechooser" value="false" />
+    <property name="libs.testng.src" value="" />
+    <property name="file.reference.cs310-course-database-sp26-test" value="cs310-course-database-sp26/test" />
+    <property name="libs.javaee-web-api-8.0.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\javaee-web-api-8.0.jar" />
+    <property name="platform.active" value="default_platform" />
+    <property name="manifest.file" value="manifest.mf" />
+    <property name="stderr.encoding" value="Cp1252" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="default.javac.source" value="25" />
+    <property name="libs.javaee-web-api-8.0.javadoc" value="C:\Program Files\Apache NetBeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="netbeans.dynamic.classpath" value="C:\Program Files\Apache NetBeans\platform\core\asm-9.9.jar;C:\Program Files\Apache NetBeans\platform\core\asm-commons-9.9.jar;C:\Program Files\Apache NetBeans\platform\core\asm-tree-9.9.jar;C:\Program Files\Apache NetBeans\platform\core\core-base.jar;C:\Program Files\Apache NetBeans\platform\core\core.jar;C:\Program Files\Apache NetBeans\platform\core\org-netbeans-libs-asm.jar;C:\Program Files\Apache NetBeans\platform\core\org-openide-filesystems-compat8.jar;C:\Program Files\Apache NetBeans\platform\core\org-openide-filesystems.jar;C:\Program Files\Apache NetBeans\nb\core\org-netbeans-upgrader.jar;C:\Program Files\Apache NetBeans\nb\core\locale\core_nb.jar" />
+    <property name="flatlaf.nativeLibraryPath" value="system" />
+    <property name="libs.eclipselinkmodelgen.classpath" value="C:\Program Files\Apache NetBeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.modelgen.processor-2.7.12.jar" />
+    <property name="truffle.UseFallbackRuntime" value="true" />
+    <property name="libs.Json-simple-4.x.x.jar.javadoc" value="" />
+    <property name="javac.systemmodulepath.cmd.line.arg" value="" />
+    <property name="file.reference.mysql-connector-j-9.5.0__2_.zip" value="C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.5.0 (2).zip" />
+    <property name="netbeans.buildnumber" value="28-bb4f5c31012229fb1577f019127e203b6925ab33" />
+    <property name="endorsed.classpath.cmd.line.arg" value="" />
+    <property name="libs.jpa20-persistence.maven-pom" value="" />
+    <property name="os.name" value="Windows 11" />
+    <property name="build.sysclasspath" value="ignore" />
+    <property name="libs.CopyLibs.maven-pom" value="" />
+    <property name="libs.jakartaee-api-8.0.maven-pom" value="" />
+    <property name="libs.Json-simple-4.x.x.jar.classpath" value="" />
+    <property name="jdkBug6558476" value="false" />
+    <property name="javadoc.author" value="false" />
+    <property name="main.class" value="" />
+    <property name="libs.jsp-compilation-syscp.javadoc" value="" />
+    <property name="nbplatform.default.harness.dir" value="${nbplatform.default.netbeans.dest.dir}/harness" />
+    <property name="source.encoding" value="UTF-8" />
+    <property name="jar.compress" value="false" />
+    <property name="libs.javaee-api-7.0.javadoc" value="C:\Program Files\Apache NetBeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="flatlaf.updateUIOnSystemFontChange" value="false" />
+    <property name="libs.spring-webmvc5.0.src" value="" />
+    <property name="libs.jsf20.maven-pom" value="" />
+    <property name="libs.restlib.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\jersey2\jakarta.annotation-api-2.1.1.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jersey2\jakarta.persistence-api-2.2.3.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jersey2\jakarta.servlet-api-4.0.4.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jersey2\jakarta.validation-api-2.0.2.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jersey2\jakarta.xml.bind-api-2.3.3.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jersey2\jersey-client-2.35.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jersey2\jersey-common-2.35.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jersey2\jersey-server-2.35.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jersey2\jersey-entity-filtering-2.35.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jersey2\jersey-hk2-2.35.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jersey2\jersey-media-moxy-2.35.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jersey2\jersey-container-servlet-2.35.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jersey2\jersey-container-servlet-core-2.35.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jersey2\hk2-api-2.6.1.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jersey2\hk2-locator-2.6.1.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jersey2\hk2-utils-2.6.1.jar;C:\Program Files\Apache NetBeans\platform\modules\ext\jersey2\jakarta.inject-2.6.1.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jersey2\aopalliance-repackaged-2.6.1.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jersey2\osgi.core-8.0.0.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jersey2\osgi-resource-locator-1.0.3.jar;C:\Program Files\Apache NetBeans\java\modules\ext\eclipselink\org.eclipse.persistence.core-2.7.12.jar;C:\Program Files\Apache NetBeans\java\modules\ext\eclipselink\org.eclipse.persistence.asm-9.4.0.jar;C:\Program Files\Apache NetBeans\java\modules\ext\eclipselink\org.eclipse.persistence.antlr-2.7.12.jar;C:\Program Files\Apache NetBeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa-2.7.12.jar;C:\Program Files\Apache NetBeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql-2.7.12.jar;C:\Program Files\Apache NetBeans\java\modules\ext\eclipselink\org.eclipse.persistence.moxy-2.7.12.jar" />
+    <property name="libs.jakartaee-web-api-8.0.javadoc" value="C:\Program Files\Apache NetBeans\enterprise\docs\jakartaee8-doc-api.jar" />
+    <property name="libs.graaljs.src" value="" />
+    <property name="run.jvmargs" value="" />
+    <property name="libs.primefaces.src" value="" />
+    <property name="ant.file" value="C:\Users\Ashton Avant\OneDrive\Desktop\cs individual project #2\build.xml" />
+    <property name="stdout.encoding" value="Cp1252" />
+    <property name="libs.JUnit_4.X.javadoc" value="" />
+    <property name="path.separator" value=";" />
+    <property name="libs.JAXB-ENDORSED.classpath" value="C:\Program Files\Apache NetBeans\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="libs.restlib.src" value="" />
+    <property name="libs.Json-simple-4.x.x.jar.maven-pom" value="" />
+    <property name="build.test.results.dir" value="build/test/results" />
+    <property name="libs.jaxws21.javadoc" value="C:\Program Files\Apache NetBeans\java\docs\jaxws-api-doc.zip" />
+    <property name="libs.javaee-endorsed-api-6.0.javadoc" value="C:\Program Files\Apache NetBeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="ap.processors.internal" value="" />
+    <property name="module.name" value="" />
+    <property name="libs.spring-webmvc5.0.javadoc" value="" />
+    <property name="libs.hamcrest.javadoc" value="" />
+    <property name="libs.JavaFX24.classpath" value="C:\Users\Ashton Avant\OneDrive\Desktop\javafx" />
+    <property name="libs.Hamcrest_1.X.src" value="" />
+    <property name="do.jar" value="true" />
+    <property name="libs.JavaFX24.maven-pom" value="" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="stdin.encoding" value="Cp1252" />
+    <property name="libs.primefaces.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\primefaces\primefaces-5.0.jar" />
+    <property name="libs.Hamcrest_1.X.javadoc" value="" />
+    <property name="libs.jaxws21.maven-pom" value="" />
+    <property name="run.test.classpath" value=":C:\Users\Ashton Avant\Downloads\hamcrest-core-1.3.jar:C:\Users\Ashton Avant\Downloads\json-simple-3.1.0.jar:C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.6.0.zip:C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.5.0 (2).zip:build/classes:${libs.junit.classpath}:C:\Program Files\Apache NetBeans\platform\modules\ext\junit-4.13.2.jar:build/test/classes" />
+    <property name="dist.jlink.output" value="dist/jlink/JavaProject11" />
+    <property name="java.class.version" value="69.0" />
+    <property name="javadoc.encoding.used" value="UTF-8" />
+    <property name="src.dir" value="cs310-course-database-sp26/src" />
+    <property name="debug.classpath" value=":C:\Users\Ashton Avant\Downloads\hamcrest-core-1.3.jar:C:\Users\Ashton Avant\Downloads\json-simple-3.1.0.jar:C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.6.0.zip:C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.5.0 (2).zip:build/classes:C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.6.0.zip" />
+    <property name="ant.project.default-target" value="default" />
+    <property name="excludes" value="" />
+    <property name="libs.javaee-api-7.0.src" value="" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="run.test.jvmargs" value="" />
+    <property name="libs.junit_4.javadoc" value="C:\Program Files\Apache NetBeans\platform\docs\junit-4.13.2-javadoc.jar" />
+    <property name="sun.java2d.dpiaware" value="true" />
+    <property name="libs.jsf20.javadoc" value="C:\Program Files\Apache NetBeans\enterprise\docs\javaee-doc-api.jar" />
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
+    <property name="netbeans.autoupdate.version" value="1.23" />
+    <property name="empty.dir" value="C:\Users\Ashton Avant\OneDrive\Desktop\cs individual project #2\build\empty" />
+    <property name="libs.jakartaee-api-10.0.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\jakarta.jakartaee-api-10.0.0.jar" />
+    <property name="netbeans.user" value="C:\Users\Ashton Avant\AppData\Roaming\NetBeans\28" />
+    <property name="file.separator" value="\" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="javadoc.additionalparam" value="" />
+    <property name="libs.spring-webmvc5.0.classpath" value="C:\Program Files\Apache NetBeans\java\modules\ext\spring-5\spring-webmvc-5.3.31.jar" />
+    <property name="org.apache.commons.logging.LogFactory" value="org.apache.commons.logging.impl.LogFactoryImpl" />
+    <property name="javac.debug" value="true" />
+    <property name="libs.restlib.maven-pom" value="" />
+    <property name="libs.testng.classpath" value="C:\Program Files\Apache NetBeans\platform\modules\ext\testng-6.14.3.jar;C:\Program Files\Apache NetBeans\platform\modules\ext\jcommander-1.78.jar" />
+    <property name="libs.jsp-compiler.src" value="" />
+    <property name="user.name" value="Ashton Avant" />
+    <property name="build.classes.dir" value="build/classes" />
+    <property name="javadoc.windowtitle" value="" />
+    <property name="nb.junit.single" value="false" />
+    <property name="nb.internal.action.name" value="test" />
+    <property name="libs.javaee-api-8.0.maven-pom" value="" />
+    <property name="libs.jaxws21.src" value="" />
+    <property name="libs.jakartaee-web-api-9.0.javadoc" value="C:\Program Files\Apache NetBeans\enterprise\docs\jakartaee9-doc-api.jar" />
+    <property name="apple.awt.application.appearance" value="system" />
+    <property name="jna.loaded" value="true" />
+    <property name="libs.junit_5.maven-pom" value="" />
+    <property name="libs.jpa20-persistence.javadoc" value="C:\Program Files\Apache NetBeans\java\modules\ext\docs\jakarta.persistence-2.2.3-doc.zip" />
+    <property name="ant.junit.enabletestlistenerevents" value="true" />
+    <property name="libs.JWSAntTasks.src" value="" />
+    <property name="ant.home" value="C:\Program Files\Apache NetBeans\extide\ant" />
+    <property name="debug.test.classpath" value=":C:\Users\Ashton Avant\Downloads\hamcrest-core-1.3.jar:C:\Users\Ashton Avant\Downloads\json-simple-3.1.0.jar:C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.6.0.zip:C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.5.0 (2).zip:build/classes:${libs.junit.classpath}:C:\Program Files\Apache NetBeans\platform\modules\ext\junit-4.13.2.jar:build/test/classes" />
+    <property name="have.tests" value="true" />
+    <property name="javac.external.vm" value="true" />
+    <property name="testng.debug.mode" value="" />
+    <property name="javac.target" value="25" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.14 compiled on August 16 2023" />
+    <property name="libs.absolutelayout.maven-pom" value="" />
+    <property name="libs.Hamcrest_1.X.maven-pom" value="" />
+    <property name="java.failonerror" value="true" />
+    <property name="javac.modulepath" value="" />
+    <property name="libs.spring-framework500.src" value="" />
+    <property name="user.properties.file" value="C:\Users\Ashton Avant\AppData\Roaming\NetBeans\28\build.properties" />
+    <property name="libs.javaee-api-6.0.src" value="" />
+    <property name="netbeans.autoupdate.country" value="US" />
+    <property name="nb.wait.for.caches" value="true" />
+    <property name="java.class.path" value="C:\Users\Ashton Avant\Downloads\hamcrest-core-1.3.jar;C:\Users\Ashton Avant\Downloads\json-simple-3.1.0.jar;C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.6.0.zip;C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.5.0 (2).zip;C:\Users\Ashton Avant\OneDrive\Desktop\cs individual project #2\build\classes;C:\Program Files\Apache NetBeans\platform\modules\ext\junit-4.13.2.jar;C:\Users\Ashton Avant\OneDrive\Desktop\cs individual project #2\build\test\classes;C:\Program Files\Apache NetBeans\extide\ant\lib\ant-launcher.jar;C:\Program Files\Apache NetBeans\extide\ant\lib\ant.jar;C:\Program Files\Apache NetBeans\extide\ant\lib\ant-junit.jar;C:\Program Files\Apache NetBeans\extide\ant\lib\ant-junit4.jar" />
+    <property name="libs.javaee-web-api-6.0.maven-pom" value="" />
+    <property name="java.vm.vendor" value="Eclipse Adoptium" />
+    <property name="ap.supported.internal" value="true" />
+    <property name="user.variant" value="" />
+    <property name="netbeans.home+have.tests" value="true" />
+    <property name="test.binaryexcludes" value="" />
+    <property name="javac.compilerargs" value="" />
+    <property name="libs.jstl.maven-pom" value="" />
+    <property name="libs.jakartaee-web-api-8.0.src" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="libs.jakartaee-api-9.0.src" value="" />
+    <property name="libs.jakartaee-web-api-11.0.javadoc" value="C:\Program Files\Apache NetBeans\enterprise\docs\jakartaee11-doc-api.jar" />
+    <property name="libs.junit_4.src" value="C:\Program Files\Apache NetBeans\platform\docs\junit-4.13.2-sources.jar" />
+    <property name="user.language" value="en" />
+    <property name="copylibs.rebase" value="true" />
+    <property name="libs.javaee-web-api-6.0.src" value="" />
+    <property name="maven.defaultProjectBuilder.disableGlobalModelCache" value="true" />
+    <property name="javadoc.nonavbar" value="false" />
+    <property name="libs.javaee-api-8.0.src" value="" />
+    <property name="ant.java.version" value="25" />
+    <property name="libs.junit_4.classpath" value="C:\Program Files\Apache NetBeans\platform\modules\ext\junit-4.13.2.jar" />
+    <property name="libs.jakartaee-api-9.0.javadoc" value="C:\Program Files\Apache NetBeans\enterprise\docs\jakartaee9-doc-api.jar" />
+    <property name="jlink.launcher.name" value="JavaProject11" />
+    <property name="test.binarytestincludes" value="" />
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
+    <property name="libs.spring-webmvc5.0.maven-pom" value="" />
+    <property name="libs.junit_4.maven-pom" value="" />
+    <property name="libs.jsp-compiler.maven-pom" value="" />
+    <property name="runtime.encoding" value="UTF-8" />
+    <property name="jlink.additionalmodules" value="" />
+    <property name="libs.jakartaee-web-api-10.0.javadoc" value="C:\Program Files\Apache NetBeans\enterprise\docs\jakartaee10-doc-api.jar" />
+    <property name="libs.jakartaee-web-api-8.0.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\jakarta.jakartaee-web-api-8.0.0.jar" />
+    <property name="javac.classpath" value=":C:\Users\Ashton Avant\Downloads\hamcrest-core-1.3.jar:C:\Users\Ashton Avant\Downloads\json-simple-3.1.0.jar:C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.6.0.zip:C:\Users\Ashton Avant\Downloads\mysql-connector-j-9.5.0 (2).zip" />
+    <property name="dist.jlink.dir" value="dist/jlink" />
+    <property name="nb.junit.batch" value="true" />
+    <property name="libs.jakartaee-web-api-10.0.maven-pom" value="" />
+    <property name="build.test.classes.dir" value="build/test/classes" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="libs.JUnit_4.X.classpath" value="" />
+    <property name="libs.jstl.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\jstl-api.jar" />
+    <property name="ap.cmd.line.internal" value="" />
+    <property name="libs.PostgreSQLDriver.src" value="" />
+    <property name="file.reference.json-simple-3.1.0.jar" value="C:\Users\Ashton Avant\Downloads\json-simple-3.1.0.jar" />
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues" />
+    <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
+    <property name="user.dir" value="C:\Users\Ashton Avant\OneDrive\Desktop\cs individual project #2" />
+    <property name="libs.javaee-endorsed-api-6.0.maven-pom" value="" />
+    <property name="platform.java" value="C:\Program Files\Apache NetBeans\jdk/bin/java" />
+    <property name="libs.JUnit_4.X.maven-pom" value="" />
+    <property name="application.args" value="" />
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
+    <property name="ant.file.JavaProject11" value="C:\Users\Ashton Avant\OneDrive\Desktop\cs individual project #2\build.xml" />
+    <property name="libs.jakartaee-web-api-8.0.maven-pom" value="" />
+    <property name="libs.eclipselink.src" value="" />
+    <property name="java.vm.version" value="25.0.1+8-LTS" />
+    <property name="libs.metro.javadoc" value="C:\Program Files\Apache NetBeans\enterprise\docs\webservices-api-javadoc.jar;C:\Program Files\Apache NetBeans\enterprise\docs\webservices-extra-javadoc.jar;C:\Program Files\Apache NetBeans\enterprise\docs\webservices-extra-api-javadoc.jar;C:\Program Files\Apache NetBeans\enterprise\docs\webservices-rt-javadoc.jar;C:\Program Files\Apache NetBeans\enterprise\docs\webservices-tools-javadoc.jar" />
+    <property name="libs.jakartaee-web-api-9.0.src" value="" />
+    <property name="libs.jakartaee-web-api-10.0.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\jakarta.jakartaee-web-api-10.0.0.jar" />
+    <property name="sun.awt.datatransfer.timeout" value="1000" />
+    <property name="ant.file.JavaProject11-impl" value="C:\Users\Ashton Avant\OneDrive\Desktop\cs individual project #2\nbproject\build-impl.xml" />
+    <property name="libs.javaee-web-api-7.0.src" value="" />
+    <property name="libs.jakartaee-api-8.0.src" value="" />
+    <property name="annotation.processing.run.all.processors" value="true" />
+    <property name="junit.forkmode" value="perTest" />
+    <property name="libs.jsp-compiler.classpath" value="C:\Program Files\Apache NetBeans\enterprise\ant\extra\jspcompile.jar" />
+    <property name="libs.javaee-endorsed-api-6.0.classpath" value="C:\Program Files\Apache NetBeans\enterprise\modules\ext\javaee6-endorsed\javax.annotation.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\javaee6-endorsed\jaxb-api-osgi.jar;C:\Program Files\Apache NetBeans\enterprise\modules\ext\javaee6-endorsed\webservices-api-osgi.jar" />
+  </properties>
+  <testcase classname="edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest" name="testDropMultiple" time="0.1">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.testDropMultiple(CourseRegistrationDatabaseTest.java:174)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+</failure>
+  </testcase>
+  <testcase classname="edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest" name="testGetSections" time="0.011">
+    <failure message="expected:&lt;17&gt; but was:&lt;0&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;17&gt; but was:&lt;0&gt;
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.testGetSections(CourseRegistrationDatabaseTest.java:261)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+</failure>
+  </testcase>
+  <testcase classname="edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest" name="testRegisterSingle" time="0.012">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.testRegisterSingle(CourseRegistrationDatabaseTest.java:58)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+</failure>
+  </testcase>
+  <testcase classname="edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest" name="testRegisterMultiple" time="0.01">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.testRegisterMultiple(CourseRegistrationDatabaseTest.java:92)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+</failure>
+  </testcase>
+  <testcase classname="edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest" name="testWithdraw" time="0.009">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.testWithdraw(CourseRegistrationDatabaseTest.java:222)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+</failure>
+  </testcase>
+  <testcase classname="edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest" name="testDropSingle" time="0.008">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.testDropSingle(CourseRegistrationDatabaseTest.java:130)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost/jsu_sp26_v1
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:638)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:199)
+	at edu.jsu.mcis.cs310.coursedb.dao.DAOFactory.<init>(DAOFactory.java:24)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.setUp(CourseRegistrationDatabaseTest.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "conn" is null
+	at edu.jsu.mcis.cs310.coursedb.dao.StudentDAO.find(StudentDAO.java:26)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.setUp(CourseRegistrationDatabaseTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.isValid(int)" because "conn" is null
+	at edu.jsu.mcis.cs310.coursedb.dao.RegistrationDAO.delete(RegistrationDAO.java:115)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.testDropMultiple(CourseRegistrationDatabaseTest.java:162)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.isValid(int)" because "conn" is null
+	at edu.jsu.mcis.cs310.coursedb.dao.RegistrationDAO.create(RegistrationDAO.java:28)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.testDropMultiple(CourseRegistrationDatabaseTest.java:170)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost/jsu_sp26_v1
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:638)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:199)
+	at edu.jsu.mcis.cs310.coursedb.dao.DAOFactory.<init>(DAOFactory.java:24)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.setUp(CourseRegistrationDatabaseTest.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "conn" is null
+	at edu.jsu.mcis.cs310.coursedb.dao.StudentDAO.find(StudentDAO.java:26)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.setUp(CourseRegistrationDatabaseTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.isValid(int)" because "conn" is null
+	at edu.jsu.mcis.cs310.coursedb.dao.SectionDAO.find(SectionDAO.java:30)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.testGetSections(CourseRegistrationDatabaseTest.java:260)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost/jsu_sp26_v1
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:638)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:199)
+	at edu.jsu.mcis.cs310.coursedb.dao.DAOFactory.<init>(DAOFactory.java:24)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.setUp(CourseRegistrationDatabaseTest.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "conn" is null
+	at edu.jsu.mcis.cs310.coursedb.dao.StudentDAO.find(StudentDAO.java:26)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.setUp(CourseRegistrationDatabaseTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.isValid(int)" because "conn" is null
+	at edu.jsu.mcis.cs310.coursedb.dao.RegistrationDAO.delete(RegistrationDAO.java:115)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.testRegisterSingle(CourseRegistrationDatabaseTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.isValid(int)" because "conn" is null
+	at edu.jsu.mcis.cs310.coursedb.dao.RegistrationDAO.create(RegistrationDAO.java:28)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.testRegisterSingle(CourseRegistrationDatabaseTest.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost/jsu_sp26_v1
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:638)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:199)
+	at edu.jsu.mcis.cs310.coursedb.dao.DAOFactory.<init>(DAOFactory.java:24)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.setUp(CourseRegistrationDatabaseTest.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "conn" is null
+	at edu.jsu.mcis.cs310.coursedb.dao.StudentDAO.find(StudentDAO.java:26)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.setUp(CourseRegistrationDatabaseTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.isValid(int)" because "conn" is null
+	at edu.jsu.mcis.cs310.coursedb.dao.RegistrationDAO.delete(RegistrationDAO.java:115)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.testRegisterMultiple(CourseRegistrationDatabaseTest.java:80)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.isValid(int)" because "conn" is null
+	at edu.jsu.mcis.cs310.coursedb.dao.RegistrationDAO.create(RegistrationDAO.java:28)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.testRegisterMultiple(CourseRegistrationDatabaseTest.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost/jsu_sp26_v1
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:638)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:199)
+	at edu.jsu.mcis.cs310.coursedb.dao.DAOFactory.<init>(DAOFactory.java:24)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.setUp(CourseRegistrationDatabaseTest.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "conn" is null
+	at edu.jsu.mcis.cs310.coursedb.dao.StudentDAO.find(StudentDAO.java:26)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.setUp(CourseRegistrationDatabaseTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.isValid(int)" because "conn" is null
+	at edu.jsu.mcis.cs310.coursedb.dao.RegistrationDAO.delete(RegistrationDAO.java:115)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.testWithdraw(CourseRegistrationDatabaseTest.java:210)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.isValid(int)" because "conn" is null
+	at edu.jsu.mcis.cs310.coursedb.dao.RegistrationDAO.create(RegistrationDAO.java:28)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.testWithdraw(CourseRegistrationDatabaseTest.java:218)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost/jsu_sp26_v1
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:638)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:199)
+	at edu.jsu.mcis.cs310.coursedb.dao.DAOFactory.<init>(DAOFactory.java:24)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.setUp(CourseRegistrationDatabaseTest.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "conn" is null
+	at edu.jsu.mcis.cs310.coursedb.dao.StudentDAO.find(StudentDAO.java:26)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.setUp(CourseRegistrationDatabaseTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.isValid(int)" because "conn" is null
+	at edu.jsu.mcis.cs310.coursedb.dao.RegistrationDAO.delete(RegistrationDAO.java:115)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.testDropSingle(CourseRegistrationDatabaseTest.java:118)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.isValid(int)" because "conn" is null
+	at edu.jsu.mcis.cs310.coursedb.dao.RegistrationDAO.create(RegistrationDAO.java:28)
+	at edu.jsu.mcis.cs310.coursedb.CourseRegistrationDatabaseTest.testDropSingle(CourseRegistrationDatabaseTest.java:126)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)
+]]></system-err>
+</testsuite>
